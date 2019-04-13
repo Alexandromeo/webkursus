@@ -1,0 +1,4 @@
+Options All -Indexes
+ErrorDocument 404 http://localhost/projek/kursus/index.php?p=404
+RewriteEngine on
+RewriteRule ^(\w+)$ $1.php [L]
